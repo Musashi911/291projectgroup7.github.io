@@ -22,7 +22,6 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-
 }
 a{
     text-decoration: none;
@@ -49,10 +48,12 @@ p{
 }
 .col-2 img{
     max: width 100px;
+    max-width:  100px;
     padding: 50px 0;
 }
 .row{
     display: felx;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -63,6 +64,7 @@ p{
 }
 .col-2 img{
     max-width:100%;
+    max-width:90%;
     padding: 50px 0;
 
 }
@@ -99,6 +101,7 @@ p{
 }
 .col-3 img{
     width: 100%;
+    margin-top: 20px;
 }
 .small-container{
     max-width: 1080px;
@@ -115,7 +118,6 @@ p{
 }
 .col-4 img{
     width: 100%;
-
 }
 .title{
     text-align: center;
@@ -148,7 +150,6 @@ h4{
 }
 .col-4:hover{
     transform: translateY(-5px);
-
 }
 /*----Special Product section code ----*/
 .offer{
@@ -165,7 +166,6 @@ small{
 /*-----Review section*/
 .testimonial{
     padding-top: 100px;
-
 }
 .testimonial .col-3{
     text-align: center;
@@ -220,7 +220,6 @@ small{
 }
 .footer p{
     color: #8a8a8a;
-
 }
 .footer h3{
     color: #fff;
@@ -250,7 +249,6 @@ ul{
 }
 .app-logo{
     margin-top:20px;
-
 }
 .app-logo img{
     width: 140px;
@@ -302,7 +300,6 @@ outline: none;
 }
 .page-btn{
     margin: 0 auto 80px;
-
 }
 .page-btn span{
 display: inline-block;
@@ -364,7 +361,6 @@ input:focus{
 .cart-info{
     display: flex;
     flex-wrap: wrap;
-
 }
 th{
     text-align: left;
@@ -399,7 +395,6 @@ td img{
     width: 100%;
     max-width: 1100px;
     
-
 }
 td:last-child{
     text-align: right;
@@ -407,27 +402,18 @@ td:last-child{
  th:last-child{
     text-align: right;
 }
-
-
-
-
-
-
 /*---------- CART ITEMS*-------*/
 .cart-page{
     margin: 8-px auto;
-
 }
 table{
     width: 100%;
     border-collapse: collapse;
 }
-
 /*account page//////////////*/
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#fff,#ffd6d6);
-
 }
 .form-container{
     background: #fff;
@@ -450,7 +436,6 @@ table{
 }
 .form-btn{
     display: inline-block;
-
 }
 .form-container form{
     max-width: 300px;
@@ -475,15 +460,12 @@ form .btn{
 form .btn:focus{
     outline: none;
 }
-
 #LoginForm{
     left: -300px;
-
 }
 #RegForm{
     left: 0;
 }
-
 form a{
     font-size: 12px;    
 }
@@ -559,25 +541,12 @@ textarea:valid~label{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-content: space-evenly;
 }
 .row .input-group{
     flex-basis: 48%;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*media query for less than 600 screen size ---*/
 @media only screen and (max-width: 800px){
     .row{
@@ -602,9 +571,3 @@ textarea:valid~label{
     .header-1{
         background: radial-gradient(#fff, #ffd6d6);
     }
-
-
-
-
-
-}
